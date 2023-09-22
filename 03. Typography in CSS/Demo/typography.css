@@ -20,7 +20,41 @@ h4 { font-size: 1.4em; }
 h5 { font-size: 1.2em; }
 h6 { font-size: 1em; font-weight: bold; }
 
-p {
+p, * + ul, * + ol {
     padding-bottom: 1.5em;
 }
 
+ul, ol, blockquote {
+    padding-left: 1.5em;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+blockquote {
+    border-left: 4px solid #ccc;
+    margin-bottom: 1.5em;
+    font-style: italic;
+    color: #666
+}
+
+blockquote p:first-child:before,
+blockquote p:nth-last-child(2):not(.author):after {
+    display: inline-block;
+    content: '"'
+}
+
+blockquote p:last-child {
+    padding-bottom: 0;
+}
+
+blockquote p.author {
+    text-align: right;
+    color: #111;
+}
+
+blockquote p.author:before {
+    display: inline-block;
+    content: '—';
+}
