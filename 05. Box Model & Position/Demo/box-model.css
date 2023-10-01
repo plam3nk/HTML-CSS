@@ -1,0 +1,52 @@
+body {
+    background: #eee;
+}
+
+.margin {
+    background: orange;
+    padding: 1em;
+}
+
+.border {
+    background: lightseagreen;
+    padding: 0.5em;
+}
+
+.padding {
+    background: gold;
+    padding: 1em;
+}
+p {
+    background: #666;
+}
+
+span {
+    background: #080;
+    padding: 2em;
+    margin: 2em;
+    display: inline-block;
+}
+
+a {
+    background: greenyellow;
+    padding: 1em;
+}
+
+a:hover {
+    background: burlywood;
+}
+
+.box {
+    background: red;
+    width: 20px;
+    height: 20px;
+    overflow: scroll;
+}
+
+.otherbox {
+    /* border: 2px solid #333; */
+    line-height: 1;
+    padding: 1em;
+    margin: 1em;
+    background: lightcoral;
+}
