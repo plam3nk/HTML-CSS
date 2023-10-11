@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    background-color: rgb(238,238,238);
+    height: 100vh;
+    font-family: Helvetica, sans-serif;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+span {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+hr {
+    border-bottom: 2px solid black;
+}
+
+footer {
+    color: rgb(255,255,255);
+    background-color: rgb(102,102,102);
+}
