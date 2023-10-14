@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body {
+            background: #EEE;
+        }
+
+        .container {
+            width: 200px;
+            height: 200px;
+            background-color: #369;
+        }
+
+        @media (min-width: 600px) { /* Mobile Styling */
+            body {
+                background-color: lightgreen;
+            }
+
+            .container {
+                background-color: darkblue;
+            }
+        } 
+
+        @media (min-width: 1100px) { /* Desktop Styling */
+            body {
+                background-color: white;
+            }
+
+            .container {
+                background-color: black;
+            }
+        } 
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="container"></div>
+</body>
+</html>
