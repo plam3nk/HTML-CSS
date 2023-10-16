@@ -21,7 +21,7 @@ header, footer {
     flex: 1 1 100%;
 }
 
-article {
+main {
     flex: 1 1 70%;
 }
 
