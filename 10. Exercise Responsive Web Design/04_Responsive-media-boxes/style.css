@@ -1,44 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 html {
-	font-family: Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 
-.container {
-	padding: 10px 20px 20px 20px;
-	display: grid;
-	grid-template-areas:
-		'h1 h1 h1'
-		'p p p'
-		'. . button';
+section {
+    padding: 3em;
 }
 
 body {
-	background-color: rgb(238, 238, 238);
+    background: rgb(238, 238, 238);
 }
 
-section {
-	background-color: rgb(255, 255, 255);
+section .container,
+section .image {
+    background: rgb(255, 255, 255);
 }
 
-p {
-	grid-area: p;
-}
-
-button {
-	background-color: rgb(0, 153, 0);
-	color: white;
-	padding: 7px 12px;
-	margin-top: 5px;
-	grid-area: button;
-	border-radius: 5px;
-    border: 0;
+section .container {
+    padding: 2em;
 }
 
 h1 {
-	font-family: Georgia, serif;
-	font-size: 1em;
-	grid-area: h1;
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+}
+
+
+
+button {
+    display: flex;
+    align-items: flex-end;
+    background: rgb(0, 153, 0);
+    border: none;
+    padding: 0.5em;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 0.5em;
+    margin-left: 18em;
 }
 
 section {
-	width: 400px;
+    width: 400px;
 }
+
