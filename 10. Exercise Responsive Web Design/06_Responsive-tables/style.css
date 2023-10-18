@@ -1,0 +1,30 @@
+th {
+    color: white;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+td {
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+th, td {
+    padding: 0.5em 10em;
+    text-align: left;
+}
+
+table {
+    margin-left: 5em;
+    margin-top: 5em;
+}
+
+@media screen and (max-width: 600px) {
+	th {
+		display: none;
+	}
+	td {
+		display: block;
+	}
+}
