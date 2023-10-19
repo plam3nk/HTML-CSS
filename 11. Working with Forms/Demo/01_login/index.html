@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Demo</title>
+
+    <style>
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font: 14px/1.5 Verdana, sans-serif;
+        }
+
+        body {
+            padding: 2em;
+        }
+
+        .login {
+            display: block;
+            padding: 2em;
+            border: 2px solid #000;
+        }
+
+        .login .field {
+            border: 2px solid red;
+            padding: 1em;
+        }
+
+        .login .field input:invalid {
+            border-color: #c00;
+        }
+
+        .login .field label,
+        .login .field input,
+        .login .field span {
+            display: block;
+            width: 100%;
+        }
+
+        .login .field label {
+            font-weight: bold;
+        }
+
+        .login .field input {
+            border: 1px solid lightcoral;
+            padding: 0.5em 1em;
+            border-radius: 0.5em;
+        }
+
+        .login .field input:focus {
+            border-color: aqua;
+        }
+
+        .login .field .helper {
+            font-style: italic;
+        }
+        
+        .login .field .helper.error {
+            color: #c00;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form class="login" action="#" method="post">
+        <p class="field text">
+            <label for="login-username">Username</label>
+            <input type="text" name="login-username" id="login-username" autocomplete="off" required>
+            <span class="helper">Fill in your username. Eg: cool322</span>
+            <span class="helper error">Fill in your username. Eg: cool322</span>
+        </p>
+
+        <p class="field text password">
+            <label for="login-password">Username</label>
+            <input type="password" name="login-password" id="login-password" autocomplete="off">
+            <span class="helper">Fill in your password. Eg: None</span>
+            <span class="helper error">This is not valid password!</span>
+        </p>
+
+        <p class="field button">
+            <input type="submit" value="Login">
+        </p>
+    </form>
+</body>
+
+</html>
