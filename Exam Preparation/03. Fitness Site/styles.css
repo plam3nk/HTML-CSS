@@ -1,0 +1,172 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.site-header {
+    background: #D01919;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3em 3em;
+    color: #fff;
+}
+
+.socials ul {
+    display: flex;
+    list-style-type: none;
+    gap: 0.5em;
+}
+
+.hero {
+    background-image: url("image/fitness-main.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center; 
+    background-size: cover;
+}
+
+.hero .nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-end;
+    padding: 2em 3em;
+    gap: 4em;
+}
+
+.hero .nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-title {
+    padding-top: 8em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.site-title h1 {
+    font-size: 3em;
+    font-stretch: narrower;
+    font-weight: lighter;
+    letter-spacing: 0.3em;
+    padding-bottom: 0.8em;
+}
+
+.site-title p {
+    text-align: center;
+    padding: 1.2em;
+    width: 33em;
+}
+
+.site-title p a {
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #D01919;
+    border-radius: 0.4em;
+    font-weight: bold;
+}
+
+.site-content,
+.features-two {
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.site-content-two {
+    background: #EFEFEF;
+}
+
+.features-two,
+.site-content .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-content .features h2,
+.site-content-two .coaches h2 {
+    padding: 1em 0;
+    font-size: 2em;
+    font-family: 'Poppins', serif;
+}
+
+.features-content,
+.features-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 20em;
+}
+
+.features-content article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features article img {
+    max-width: 4em;
+}
+
+.features article h3 {
+    padding: 1em 0;
+    font-weight: bolder;
+    color: #D01919;
+    font-family: 'Poppins', serif;
+}
+
+.features article p {
+    text-align: center;
+    max-width: 19em;
+    padding-bottom: 4em;
+}
+
+.coaches h2 {
+    text-align: center;
+}
+
+.features-content img {
+    border-radius: 0.3em
+}
+
+.features-content h3 {
+    padding-top: 0.7em;
+}
+
+.features-content h4 {
+    padding: 0.5em 0 1.5em 0;
+    color: #D01919;
+    font-size: 0.9em;
+}
+
+.features-content p {
+    text-align: center;
+    padding-bottom: 5em;
+}
+
+.footer {
+    padding: 0.5em;
+    background: #D01919;
+    color: black;
+    text-align: center;
+    font-size: 0.95em;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+hr {
+    margin: 0 auto 2em auto;
+    width: 3em;
+    border-top: 2px solid #D01919;
+}
+
