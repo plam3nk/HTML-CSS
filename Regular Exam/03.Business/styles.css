@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+
+.hero {
+    background-image: url("images/background.jpg");
+    height: 940px;
+    width: 100%;
+    background-position: top; 
+    background-size: cover;
+}
+
+.max-width-controller {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.site-header {
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header img {
+    width: 100px;
+    height: 80px;
+}
+
+.site-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3em;
+    padding-top: 1em;
+}
+
+.site-header ul li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.site-title {
+    padding: 5em 0;
+}
+
+.site-title h1 {
+    font-size: 4em;
+    font-weight: normal;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+}
+
+.site-title p {
+    font-size: 1.3em;
+    color: #fff;
+    max-width: 33em;
+    padding-top: 1em;
+    line-height: 1.5em;
+}
+
+.site-objectives {
+    padding: 5em 0 8em 0;
+    display: flex;
+    gap: 3.5em;
+}
+
+.site-objectives h2 {
+    font-size: 3.3em;
+    font-weight: normal;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 0.5em;
+}
+
+.site-objectives p {
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding-bottom: 2.5em;
+}
+
+.site-objectives span a {
+    border: 2px solid #B0825C;
+    color: #B0825C;
+    text-decoration: none;
+    font-weight: 550;
+    padding: 0.5em 1em;
+    font-size: 1.3em;
+}
+
+.sponsors-partners {
+    padding-bottom: 5em;
+}
+
+.sponsors-partners article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsors-partners h3 {
+    font-size: 3.3em;
+    font-weight: normal;
+    font-family: 'PT Serif', serif;
+    padding: 1em 0 0.5em 0;
+    color: #B0825C;
+}
+
+.sponsors-partners p {
+    text-align: center;
+    color: #716567;
+    font-size: 1.25em;
+}
+
+.media {
+    display: flex;
+    justify-content: center;
+    padding: 5em 0 2em 0;
+    gap: 5em;
+}
+
+.media img {
+    padding: 1.5em;
+    align-self: center;
+    width: 180px;
+    height: 180px;
+    background: #DDDDDD;
+    border-radius: 100px;
+}
+
+.site-footer {
+    background: #171720;
+}
+
+.features {
+    display: flex;
+    gap: 5em;
+    padding: 3.75em 0;
+}
+
+.features article h4 {
+    font-weight: normal;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    padding-bottom: 2em;
+    font-size: 1.5em;
+}
+
+.features article p {
+    text-transform: uppercase;
+    color: #A4A69B;
+    line-height: 2.5em;
+}
+
+footer {
+    padding: 1.5em 0;
+    color: #A4A69B;
+}
+
+#first-hr {
+    border-bottom: 1px solid #CCCCCC;
+}
+
+#footer-hr {
+    border-bottom: 1px solid #3A3A41;
+}
